@@ -1,3 +1,4 @@
+/* Для запуска севера необходимо в новом терминале запустить - node ./src/plugins/testServer.js */
 const http = require('http')
 
 const PORT = 3008;
@@ -39,7 +40,7 @@ const cardObject = [
     { id: 34, img: "", comparedValues: 71055 },
     { id: 35, img: "", comparedValues: 81059 },
     { id: 36, img: "", comparedValues: 91050 },
-  ]
+]
 
 const server = http.createServer((req, res) => {
     console.log('Server request');
